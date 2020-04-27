@@ -1,5 +1,12 @@
 package ru.myitschool.entity;
- 
+
+
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
 public class PhoneNumbers {
     private Integer id;
     private Long value;

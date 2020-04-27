@@ -13,23 +13,23 @@ public class PersonsRepository {
 	private JdbcTemplate jdbcTemplate;
 
 	public int createPerson(String name) {
-		return jdbcTemplate.update("INSERT INTO \"PERSONS\" (\"NAME\") VALUES(?)", name);
+		return jdbcTemplate.update("INSERT INTO dbtest.\"PERSONS\" (\"NAME\") VALUES(?)", name);
 	}
 
 	public int updatePerson(Persons person) {
-		return jdbcTemplate.update("UPDATE \"PERSONS\" SET \"NAME\" = ? WHERE \"ID\" = ?", person.getName(),
+		return jdbcTemplate.update("UPDATE dbtest.\"PERSONS\" SET \"NAME\" = ? WHERE \"ID\" = ?", person.getName(),
 				person.getId());
 	}
 
 	public int deletePerson(Integer id) {
-		return jdbcTemplate.update("DELETE FROM \"PERSONS\" WHERE \"ID\" = ?", id);
+		return jdbcTemplate.update("DELETE FROM dbtest.\"PERSONS\" WHERE \"ID\" = ?", id);
 	}
 
 	public Persons getPerson(Integer id) {
-		return jdbcTemplate.queryForObject("SELECT * FROM \"PERSONS\" WHERE \"ID\"=?", new PersonsMapper(), id);
+		return jdbcTemplate.queryForObject("SELECT * FROM dbtest.\"PERSONS\" WHERE \"ID\"=?" , new PersonsMapper(), id);
 	}
 
 	public List<Persons> getPersons() {
-		return jdbcTemplate.query("SELECT * FROM \"PERSONS\"", new PersonsMapper());
+		return jdbcTemplate.query("SELECT * FROM dbtest.\"PERSONS\"", new PersonsMapper());
 	}
 }

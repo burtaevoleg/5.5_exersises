@@ -19,17 +19,17 @@ public class PhoneNumbersRepository {
 	private JdbcTemplate jdbcTemplate;
 
 	public int createPhoneNumber(Long value, Integer idPerson) {
-		return jdbcTemplate.update("INSERT INTO \"PHONENUMBERS\" (\"VALUE\", \"ID_PERSON\") VALUES (?,?)", value,
+		return jdbcTemplate.update("INSERT INTO dbtest.\"PHONENUMBERS\" (\"VALUE\", \"ID_PERSON\") VALUES (?,?)", value,
 				idPerson);
 	}
 
 	public int updatePhoneNumber(PhoneNumbers phoneNumbers) {
-		return jdbcTemplate.update("UPDATE \"PHONENUMBERS\" SET \"VALUE\" = ? WHERE \"ID\" = ?",
+		return jdbcTemplate.update("UPDATE dbtest.\"PHONENUMBERS\" SET \"VALUE\" = ? WHERE \"ID\" = ?",
 				phoneNumbers.getValue(), phoneNumbers.getId());
 	}
 
 	public int deletePhoneNumbers(Integer id) {
-		return jdbcTemplate.update("DELETE FROM \"PHONENUMBERS\" WHERE \"ID\" = ?", id);
+		return jdbcTemplate.update("DELETE FROM dbtest.\"PHONENUMBERS\" WHERE \"ID\" = ?", id);
 	}
 
 	public JSONArray getPhoneBook() {
@@ -38,7 +38,7 @@ public class PhoneNumbersRepository {
 		try {
 			Connection conn = jdbcTemplate.getDataSource().getConnection();
 			Statement stmt = conn.createStatement();
-			String sql = "SELECT \"PHONENUMBERS\".\"ID\" AS \"ID\",\"PHONENUMBERS\".\"VALUE\" AS \"NUMBER\", \"PERSONS\".\"NAME\" AS \"NAMEPERSON\" FROM \"PHONENUMBERS\" LEFT JOIN \"PERSONS\" ON \"PERSONS\".\"ID\" = \"PHONENUMBERS\".\"ID_PERSON\";";
+			String sql = "SELECT dbtest.\"PHONENUMBERS\".\"ID\" AS \"ID\",dbtest.\"PHONENUMBERS\".\"VALUE\" AS \"NUMBER\", dbtest.\"PERSONS\".\"NAME\" AS \"NAMEPERSON\" FROM dbtest.\"PHONENUMBERS\" LEFT JOIN dbtest.\"PERSONS\" ON dbtest.\"PERSONS\".\"ID\" = dbtest.\"PHONENUMBERS\".\"ID_PERSON\";"; // TODO not right sql
 			ResultSet rs = stmt.executeQuery(sql);
 			while (rs.next()) {
 				json = new JSONObject();

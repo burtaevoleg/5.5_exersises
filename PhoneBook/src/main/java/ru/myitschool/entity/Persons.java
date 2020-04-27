@@ -1,6 +1,12 @@
 package ru.myitschool.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
 public class Persons {
+
 	private Integer id;
 	private String name;
 
