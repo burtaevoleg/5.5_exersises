@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc89fd6-101f-4470-a78f-e3304c3035c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/5.5_exersises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/5.5_exersises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/PhoneBookApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/controllers/PersonsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/controllers/PhoneNumberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/entity/Persons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/entity/PhoneNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/repositories/PersonsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/repositories/PersonsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/java/ru/myitschool/repositories/PhoneNumbersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneBook/src/test/java/com/example/demo/PhoneBookApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/controllers/PersonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/myitschool/controllers/PersonsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +19,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -76,12 +63,24 @@
       <option name="presentableId" value="Default" />
       <updated>1587989654306</updated>
       <workItem from="1587989657263" duration="24000" />
-      <workItem from="1590429351030" duration="520000" />
+      <workItem from="1590429351030" duration="952000" />
     </task>
+    <task id="LOCAL-00001" summary="restructurized repo for heroku usage">
+      <created>1590429921610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590429921610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="restructurized repo for heroku usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructurized repo for heroku usage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="274" key="#Project_Structure" timestamp="1590429566108">
@@ -96,42 +95,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429820702" />
+    <state x="882" y="269" key="CommitChangelistDialog2" timestamp="1590429920549">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="882" y="269" key="CommitChangelistDialog2/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429920549" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587989675805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1600.52.1600.860@0.0.1920.1040" timestamp="1587989675805" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1590429881242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881242" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1590429881242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881242" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1590429881242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881242" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1590429881242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.1.bottom" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881242" />
+    <state width="2517" height="401" key="GridCell.Tab.1.bottom" timestamp="1590429881243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.1.center" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881243" />
+    <state width="2517" height="401" key="GridCell.Tab.1.center" timestamp="1590429881243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.1.left" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881243" />
+    <state width="2517" height="401" key="GridCell.Tab.1.left" timestamp="1590429881243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
-    <state width="2517" height="401" key="GridCell.Tab.1.right" timestamp="1590429794127">
+    <state width="2517" height="401" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881243" />
+    <state width="2517" height="401" key="GridCell.Tab.1.right" timestamp="1590429881243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429794127" />
+    <state width="2517" height="401" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429881243" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1590429937301">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429937301" />
     <state x="934" y="383" key="spring file set editor" timestamp="1590429738568">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

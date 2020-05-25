@@ -31,6 +31,13 @@ public class PersonsController {
         }
         return person.createPerson(name);
     }
+
+
+    @RequestMapping(value= "/greetings" , method=RequestMethod.GET)
+    public String updatePerson(){
+
+        return "Hello from spring";
+    }
  
     @RequestMapping(value = "update", method=RequestMethod.POST,consumes="text/plain")
     public int updatePerson(@RequestBody String param){
