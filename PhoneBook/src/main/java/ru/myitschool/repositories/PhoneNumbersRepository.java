@@ -29,7 +29,7 @@ public class PhoneNumbersRepository {
 	}
 
 	public int deletePhoneNumbers(Integer id) {
-		return jdbcTemplate.update("DELETE FROM dbtest.\"PHONENUMBERS\" WHERE \"ID\" = ?", id);
+		return jdbcTemplate.update("DELETE FROM dbtest.phonenumbers WHERE \"ID\" = ?", id);
 	}
 
 	public JSONArray getPhoneBook() {
@@ -37,13 +37,13 @@ public class PhoneNumbersRepository {
 		JSONArray jsonArr = new JSONArray();
 		try {
 			Connection conn = jdbcTemplate.getDataSource().getConnection();
-			Statement stmt = conn.createStatement();
-			String sql = "SELECT dbtest.\"PHONENUMBERS\".\"ID\" AS \"ID\",dbtest.\"PHONENUMBERS\".\"VALUE\" AS \"NUMBER\", dbtest.\"PERSONS\".\"NAME\" AS \"NAMEPERSON\" FROM dbtest.\"PHONENUMBERS\" LEFT JOIN dbtest.\"PERSONS\" ON dbtest.\"PERSONS\".\"ID\" = dbtest.\"PHONENUMBERS\".\"ID_PERSON\";"; // TODO not right sql
+			Statement stmt = conn.createStatement(); //WHERE (dbtest."PHONENUMBERS"."ID_PERSON" = 4)
+			String sql = "SELECT * FROM dbtest.phonenumbers WHERE (dbtest.phonenumbers.\"ID_PERSON\" = 3);";// LEFT JOIN dbtest.\"PERSONS\" ON dbtest.\"PERSONS\".\"ID\" = 4;"; // TODO not right sql
 			ResultSet rs = stmt.executeQuery(sql);
 			while (rs.next()) {
 				json = new JSONObject();
-				json.put("name", rs.getString("NAMEPERSON"));
-				json.put("value", rs.getString("NUMBER"));
+				json.put("name", rs.getString("ID_PERSON"));
+				json.put("value", rs.getString("VALUE"));
 				jsonArr.put(json);
 			}
 		} catch (SQLException e) {
