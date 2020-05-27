@@ -1,13 +1,9 @@
 package ru.myitschool.repositories;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-import ru.myitschool.entity.Persons;
 import ru.myitschool.entity.Users;
-
-import java.util.List;
 
 @Component
 public class UsersRepository {

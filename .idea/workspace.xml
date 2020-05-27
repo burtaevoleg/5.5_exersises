@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc89fd6-101f-4470-a78f-e3304c3035c6" name="Default Changelist" comment="restructurized repo for heroku usage" />
+    <list default="true" id="6fc89fd6-101f-4470-a78f-e3304c3035c6" name="Default Changelist" comment="restructurized repo for heroku usage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/controllers/PersonsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/controllers/PhoneNumberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/entity/Persons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/entity/PhoneNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/repositories/PersonsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/repositories/PersonsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/repositories/PhoneNumbersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/myitschool/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/myitschool/repositories/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +43,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PhoneBook" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,6 +88,10 @@
       <workItem from="1590430650945" duration="408000" />
       <workItem from="1590431070163" duration="430000" />
       <workItem from="1590431670071" duration="679000" />
+      <workItem from="1590468775377" duration="3931000" />
+      <workItem from="1590475217248" duration="1154000" />
+      <workItem from="1590494892254" duration="4335000" />
+      <workItem from="1590514926908" duration="3525000" />
     </task>
     <task id="LOCAL-00001" summary="restructurized repo for heroku usage">
       <created>1590429921610</created>
@@ -103,6 +124,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590429820702" />
+    <state x="1379" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590555413017">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1379" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590555413017" />
     <state x="882" y="269" key="CommitChangelistDialog2" timestamp="1590434016695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -111,38 +136,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1600.52.1600.860@0.0.1920.1040" timestamp="1587989675805" />
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.0.bottom" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.0.center" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
+    <state width="1774" height="395" key="GridCell.Tab.0.center" timestamp="1590556049650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.0.left" timestamp="1590432349629">
+    <state width="1774" height="395" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049650" />
+    <state width="1774" height="395" key="GridCell.Tab.0.left" timestamp="1590556049650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349629" />
-    <state width="1234" height="398" key="GridCell.Tab.0.right" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049650" />
+    <state width="1774" height="395" key="GridCell.Tab.0.right" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.1.bottom" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
+    <state width="1774" height="395" key="GridCell.Tab.1.bottom" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.1.center" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
+    <state width="1774" height="395" key="GridCell.Tab.1.center" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.1.left" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
+    <state width="1774" height="395" key="GridCell.Tab.1.left" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
-    <state width="1234" height="398" key="GridCell.Tab.1.right" timestamp="1590432349630">
+    <state width="1774" height="395" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
+    <state width="1774" height="395" key="GridCell.Tab.1.right" timestamp="1590556049651">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590432349630" />
+    <state width="1774" height="395" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1590556049651" />
     <state x="810" y="355" key="Maven.ArtifactSearchDialog" timestamp="1590430354533">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
